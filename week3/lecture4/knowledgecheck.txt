@@ -1,0 +1,15 @@
+Datatype is a classification that tells the os, and compiler how the programme intends to use the specific piece of data.
+Os allocates 1 byte for char and 8 for double
+Five main memory segments in process memory layout are:
+Text
+Data
+Bss
+Heap
+Stack
+Data segment stores initialized global/static variables. But the BSS segment stores uninitialized global/static variables.
+To allow efficient memory management ,stack stores global variables.
+ Cpu reclaims the released stack memory. It is ultimately reclaimed by the os 
+Unused memory left in the heap - memory leak 
+Ptr gives the address  of the vairable held by the pointer, &ptr gives the address of the pointer
+% expects a void* pointer, to make sure the pointer is passed in expected type
+Os keeps a ledger of which process occupies or reserves a memory address.
