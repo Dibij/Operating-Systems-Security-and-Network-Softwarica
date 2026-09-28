@@ -1,0 +1,32 @@
+# Binaries and intermediate compiler output files
+*.o
+*.s
+*.i
+*.asm
+*.out
+
+# Specific executables
+week 1/day3
+week 1/input
+week 1/function
+week 1/lab2/exit_status
+week 1/lab2/hello
+week 1/lab2/return_fifty
+week 1/lab2/user_info
+week 1/lab2/user_input
+week3/loop
+week3/task1
+week3/task2
+week3/task2_identity
+week3/task3
+week3/task4
+week3/task5
+week3/lab4/lab1_datatypes
+week3/lab4/lab2_segments
+week3/lab4/heap_pointer_demo
+week3/lecture4/task1
+week3/lecture4/task2
+
+# OS / Editor temporary files
+.DS_Store
+Thumbs.db
